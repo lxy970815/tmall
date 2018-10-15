@@ -1,0 +1,296 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-08 09:58:16
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-08 23:15:18
+*/
+#nav {
+	width: auto;
+	height: 32px;
+	min-width: 990px;
+	position: relative !important;
+	background-color: #f2f2f2;
+	z-index: 9999;
+	border-bottom: 1px solid #e5e5e5;
+}
+.nav-bar {
+	position: relative;
+	left: -15px;
+	width: 1230px;
+	margin: auto;
+	height: 32px;
+	color: #999;
+	background-color: #f2f2f2;
+	font-size: 0;
+}
+.bar-left {
+	height: 32px;
+	line-height: 32px;
+	display: inline-block;
+	font-size: 12px;
+}
+.bar-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.bar-right > li {
+	float: left;
+	line-height: 32px;
+	position: relative;
+	font-size: 12px;
+}
+.bar-right > li > a {
+	display: block;
+	height: 32px;
+	padding: 0 14px 0 10px;
+	cursor: pointer;
+	z-index: 10000;
+	border: solid #f2f2f2;
+	border-width: 0 1px;
+	position: relative;
+}
+.bar-right > li > a > b {
+	top: 15px;
+	position: absolute;
+	right: 6px;
+	width: 0;
+	height: 0;
+	border-width: 3px;
+	border-style: solid dashed dashed;
+	border-color: #bbb transparent transparent;
+	font-size: 0;
+	line-height: 0;
+}
+.bar-separator {
+	top: 9px;
+	display: inline-block;
+	width: 0;
+	height: 14px;
+	vertical-align: top;
+	position: relative;
+	left: 0;
+	font-size: 0;
+	border-left: 1px solid #ccc;
+	margin: 0 2px 0 5px;
+}
+.bar-hover {
+	position: absolute;
+	top: 33px;
+	left: 0;
+	line-height: 1.4em;
+	padding: 8px 10px;
+	background-color: #fff;
+	z-index: 93110;
+	border: solid #eee;
+	border-width: 0 1px 1px;
+}
+.bar-taobao .bar-hover {
+	width: 74px;
+}
+.bar-cart {
+	padding: 0 10px;
+}
+.bar-right .bar-cart > i {
+	position: relative;
+	top: 1px;
+	font-size: 16px;
+	color: #FF0036;
+	padding-left: 10px;
+}
+.bar-right .bar-cart > a {
+	display: inline-block;
+	padding-left: 0;
+}
+.bar-right .bar-cart > a > span {
+	font-weight: bold;
+}
+.bar-collect .bar-hover {
+	width: 62px;
+}
+.bar-mobile .bar-hover {
+	left: -48px;
+	width: 175px;
+	height: 227px;
+	background-color: #fff;
+	top: 28px;
+	box-shadow: 0 0 5px #aaa;
+	padding: 0;
+}
+.bar-right .bar-mobile > i {
+	padding-left: 10px;
+	color: #FF0036;
+}
+.bar-right .bar-mobile > a {
+	display: inline;
+	padding-left: 0;
+}
+.bar-hover-erweima {
+	width: 175px;
+	height: 175px;
+	margin: 5px 0 0px;
+	background: url(../images/nav/erweima.png) 0 0 no-repeat;
+}
+.bar-mobile .bar-hover p {
+	position: relative;
+	text-align: center;
+	color: #ff0036;
+	font-size: 12px;
+}
+.bar-mobile > i {
+	font-size: 14px;
+	color: #ff0036;
+}
+.bar-mobile .bar-hover b {
+	width: 0;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	position: absolute;
+	left: 50%;
+	top: -10px;
+	margin-left: -2px;
+	border-width: 5px;
+	border-style: dashed dashed solid;
+	border-color: transparent transparent #fff;
+}
+.bar-seller .bar-hover {
+	width: 122px;
+	overflow: hidden;
+	right: 0;
+	left: auto;
+}
+.bar-seller .bar-hover ul {
+	margin-top: -5px;
+	overflow: hidden;
+	width: 122px;
+}
+.bar-seller .bar-hover ul li {
+	float: none;
+	padding: 5px 0;
+	height: auto;
+	display: block;
+	line-height: 1.4em;
+	border-bottom: 1px dotted #827777;
+	margin-right: -20px;
+}
+.bar-seller .bar-hover ul li h3 {
+	color: #666;
+	font-weight: 700;
+}
+.bar-seller .bar-hover ul li a {
+	display: inline-block;
+	width: 48px;
+	margin-right: 20px;
+	line-height: 22px;
+}
+.bar-right .bar-lead > i {
+	padding-left: 10px;
+	color: #FF0036;
+}
+.bar-right .bar-lead > a{
+	display: inline-block;
+	padding-left: 0;
+}
+.bar-lead .bar-hover {
+	width: 1198px;
+	padding: 25px 0;
+	right: 0;
+	left: auto;
+	border-width: 0 1px 1px;
+}
+.bar-lead .bar-hover .site-hot, .bar-lead .bar-hover .site-market {
+	width: 455px;
+	height: 110px;
+	padding-left: 30px;
+	overflow: hidden;
+	float: left;
+}
+.bar-lead .bar-hover .site-hot h2 {
+	color: #f56a00;
+}
+.bar-lead .bar-hover .site-market h2 {
+	color: #2263d4;;
+}
+.bar-lead .bar-hover h2 {
+	font-size: 16px;
+	padding-bottom: 8px;
+	font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+}
+.bar-lead .bar-hover ul {
+	margin-right: -20px;
+	overflow: hidden;
+}
+.bar-lead .bar-hover ul li {
+	width: 95px;
+	float: left;
+	padding: 6px 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+
+.bar-lead .bar-hover .site-market {
+	width: 455px;
+	height: 110px;
+	border-left: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	padding-left: 30px;
+	overflow: hidden;
+}
+.bar-lead .bar-hover .site-help {
+	height: 110px;
+	padding-left: 30px;
+	overflow: hidden;
+}
+.bar-lead .bar-hover li > a {
+	position: relative;
+}
+.site-hot a:hover {
+	color: #f56a00;
+	text-decoration: underline;
+}
+.site-market a:hover {
+	color: #2263d4;
+	text-decoration: underline;
+}
+.site-help a:hover {
+	text-decoration: underline;
+}
+.bar-hover {
+	display: none;
+}
+.bar-right > li:hover > a{
+	color: #ff0036;
+}
+.bar-right > li.bar-download:hover {
+	background-color: #fff;
+}
+.bar-right > li:hover .bar-hover {
+	display: block;
+}
+.nav-red {
+	position: absolute;
+	width: 9px;
+	height: 11px;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden;
+	top: -7px;
+	right: -9px;
+	z-index: 10000;
+	background: url(../images/nav/icon.png) -37px -11px no-repeat;
+}
+.nav-green {
+	position: absolute;
+	width: 9px;
+	height: 11px;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden;
+	top: -7px;
+	right: -9px;
+	background: url(../images/nav/icon.png) -37px 0px no-repeat;
+	z-index: 10000;
+}

@@ -1,0 +1,133 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-08 09:21:03
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-12 09:31:54
+*/
+.head-layout {
+	width: 1230px;
+	margin: 0 auto;
+}
+#logo {
+	display: none;
+	float: left;
+	z-index: 9;
+	padding-top: 28px;
+	width: 280px;
+	height: 64px;
+	line-height: 64px;
+	position: relative;
+}
+#logo > span {
+	float: left;
+	margin-right: 10px;
+	padding: 0;
+}
+#logo > span > a {
+	height: 30px;
+	font-size: 22px;
+	width: 190px;
+	overflow: hidden;
+	position: relative;
+	display: block;
+	color: #fff;
+	text-indent: 0;
+}
+.head-search {
+	overflow: hidden;
+}
+.search-banner {
+	padding: 2px 0 0 9%;
+	float: right;
+	height: 70px;
+	width: 200px;
+}
+.search-input {
+	width: 625px;
+	padding-top: 38px;
+	float: right;
+	overflow: hidden;
+}
+.search-input > form {
+	border: solid #ff0036;
+	border-width: 2px 0 2px 2px;
+}
+.search-input > form > fieldset {
+	position: relative;
+}
+.search-input > form > fieldset > legend {
+	display: none;
+	color: #000;
+}
+.mallSearch {
+	height: 36px;
+}
+.mallSearch label {
+	font-size: 14px;
+	line-height: 36px;
+	height: 36px;
+	max-width: 90%;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #666;
+	position: absolute;
+	left: 8px;
+	top: 0;
+	z-index: 1;
+}
+.form-input {
+	height: 36px;
+	float: left;
+	font-size: 12px;
+	vertical-align: middle;
+	font-size: 12px;
+}
+#mq {
+	height: 36px;
+	width: 491px;
+	font: 16px/22px arial;
+	box-sizing: border-box;
+	background: none;
+	color: #000;
+	margin: 0;
+	z-index: 2;
+	padding: 5px 3px 5px 5px;
+	outline: 0;
+	border: none;
+	position: relative;
+}
+
+.search-input button {
+	width: 132px;
+	height: 36px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	top: 0;
+	border: 0;
+	cursor: pointer;
+	color: #fff;
+	background-color: #ff0036;
+	overflow: hidden;
+	font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+}
+.search-input ul {
+	height: 24px;
+	font-size: 14px;
+	padding: 4px 0 0;
+	margin-left: -13px;
+	overflow: hidden;
+	width: 100%;
+}
+.search-input ul li {
+	display: inline-block;
+	border-left: 1px solid #ccc;
+	line-height: 1.1;
+	padding: 0 12px;
+}
+.highlight {
+	color: #ff0036;
+}

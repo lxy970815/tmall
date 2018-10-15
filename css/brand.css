@@ -1,0 +1,243 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-08 09:21:51
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-20 16:32:57
+*/
+#brand {
+	width: 100%;
+}
+.iteract {
+	width: 1230px;
+	padding-right: 30px;
+	margin: 0 auto;
+}
+.module-body {
+	background-color: transparent;
+	font-size: 0;
+	width: 100%;
+}
+.module-body > img {
+	display: block;
+	margin: 0 auto 20px;
+	width: 600px;
+	height: 40px;
+}
+.module-body > a, .module-body > div a {
+	float: left;
+	display: block;
+	width: 238px;
+	margin-right: 10px;
+}
+.module-body > a > img, .module-body > div > a > img {
+	width: 100%;
+	transition: opacity 300ms ease-out;
+}
+.module-body > a:last-child, .module-body > div > a:last-child {
+	margin-right: 0;
+}
+.module-body-new {
+	height: 10px;
+}
+.module-body-section2 {
+	padding-top: 24px;
+}
+.brandwall-item {
+	width: 485px;
+	float: left;
+	display: block;
+	height: 370px;
+	margin-right: 13px;
+	background-color: #fff;
+}
+.brandwall-item:last-child {
+	margin-right: 0px;
+}
+.brandwall-item.first-990 {
+	width: 234px;
+}
+.brandwall-item .head {
+	position: relative;
+	height: 54px;
+	background-color: #fff;
+	font-size: 0;
+	border-style: solid;
+	border-width: 0px 0px 1px;
+	border-color: #eee;
+}
+.brandwall-item .body2 {
+	width: 485px;
+}
+.brandwall-item .head .cn {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	line-height: 54px;
+	height: 18px;
+	margin-left: 10px;
+}
+.brandwall-item .head .en {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	margin-left: 10px;
+	line-height: 24px;
+	height: 44px;
+}
+.brandwall-item.first-990 .head .more {
+	text-indent: -99px;
+}
+.brandwall-item .head .more {
+	position: absolute;
+	display: block;
+	right: 14px;
+	top: 0;
+	width: 42px;
+	height: 54px;
+	line-height: 54px;
+	z-index: 99;
+	-webkit-background-size: 18px 18px;
+	background-size: 18px 18px;
+	background-image: url(../images/brand/brand/more.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 14px;
+	font-size: 16px;
+	color: #666;
+	overflow: hidden;
+}
+.brandwall-item .body {
+	display: block;
+	height: 316px;
+}
+.brandwall-item .body img {
+	height: 100%;
+}
+.brand-item-body {
+	width: 100%;
+	margin-right: -2px;
+	overflow: hidden;
+}
+.brand-item-body li {
+	width: 122px;	
+	height: 108px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	float: left;
+	position: relative;
+}
+.brand-item-body li .brand-img {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	line-height: 108px;
+	background-color: #fff;
+}
+.brand-item-body li .brand-img img {
+	width: 82%;
+	height: 50px;	
+}
+.brand-item-body li .brand-mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.brand-item-body li:hover .brand-mask {
+	opacity: 1;
+	
+	transition: all 0.3s ease-out;
+}
+.brand-item-body li .brand-mask .coupon {
+	color: #fff;
+	text-align: center;
+	line-height: 90px;
+	height: 60px;
+	font-size: 12px;
+}
+.brand-item-body li .brand-mask .coupon span {
+	display: block;
+	padding: 0 5px;
+	overflow: hidden;
+	text-decoration: ellipsis;
+	white-space: nowrap;
+}
+.brand-mask .enter {
+	text-align: center;
+	height: 32px;
+}
+.brand-mask .enter span {
+	display: inline-block;
+	color: #fff;
+	width: 63px;
+	height: 18px;
+	font-size: 12px;
+	line-height: 15px;
+	background-color: #ff0036;
+	border-radius: 9px;
+}
+.module-body3 .refresh a {
+	width: 122px;
+	height: 108px;
+	display: block;
+	color: #999;
+	background-color: #fff;
+	position: absolute;
+	bottom: 1px;
+	right: 1px;
+	overflow: hidden;
+	transition: all 0.3s ease-out;
+	z-index: 500;
+}
+.refresh a i {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -20px;
+	margin-top: -30px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 38px;
+	border-radius: 20px;
+}
+.refresh a span {
+	display: block;
+	font-size: 14px;
+	line-height: 136px;
+	text-align: center;
+}
+.module-body3 {
+	position: relative;
+}
+.refresh {
+	position: absolute;
+	cursor: pointer;
+	bottom: 0;
+	right: 0;
+}
+
+
+@keyframes y_rotateY {
+	0% {
+	    transform:rotateY(0deg);
+  }
+  100% {
+    transform:rotateY(90deg);
+  }
+}
+@keyframes y_rotateY2 {
+	0% {
+	    transform:rotateY(90deg);
+  }
+  100% {
+    transform:rotateY(0deg);
+  }
+}
